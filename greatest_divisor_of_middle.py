@@ -2,7 +2,7 @@ def greatest_divisor_of_middle(ordered_numbers):
   
   """
   The function is intended to take in a list of non-zero ordered numbers, find
-  the middle value, and then find the greatest positive divisor of that number in the list. 
+  the middle value, and then find the greatest divisor of that number in the list. 
   The function was originally designed to partition histogram bins and find appropriate spacing,
   but can be extracted for general purpose and other potential plotting purposes. 
   
@@ -12,7 +12,7 @@ def greatest_divisor_of_middle(ordered_numbers):
   
   OUTPUT:
   
-  bins: a list where [0] = middle value and [1] = greatest positive divisor of that value within the list.
+  bins: a list where [0] = middle value and [1] = greatest divisor of that value within the list.
   """
   
   # if the length of the list is even 
