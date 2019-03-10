@@ -32,6 +32,7 @@ def greatest_divisor_of_middle(ordered_numbers):
         pass
       
   # if the length of the list is odd
+  
   else:
     # pick the midde number
     middle = ordered_numbers[(math.ceil(len(ordered_numbers) / 2)) - 1] # subtract 1 due to pythonic indexing
